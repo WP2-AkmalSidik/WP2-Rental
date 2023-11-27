@@ -1,0 +1,36 @@
+@font-face {
+   font-family: poppins;
+   src: url(../font/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+   font-family: poppins-bold;
+   src: url(../font/Poppins/Poppins-Bold.ttf);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: poppins;
+   text-decoration: none;
+}
+
+::-webkit-scrollbar {width: 0px;}
+
+body {
+   height: 100vh;
+   width: 100%;
+   padding-top: 8vh;
+}
+
+/* Contact and About BG */
+.window {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+strong {
+   font-size: 14px;
+}

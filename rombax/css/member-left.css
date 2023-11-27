@@ -1,0 +1,68 @@
+
+
+/* HOME LEFT */
+
+.left {
+   visibility: hidden;
+   opacity: 0;
+   position: fixed;
+   left: 0px;
+   height: 93vh;
+   top: 7vh;
+   width: 0px;
+   transition: 0.4s all ease;
+   z-index: 5;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   -webkit-box-shadow: 9px 6px 21px 0px rgba(0,0,0,0.40);
+   -moz-box-shadow: 9px 6px 21px 0px rgba(0,0,0,0.40);
+   box-shadow: 9px 6px 21px 0px rgba(0,0,0,0.40);
+}
+
+.left-active {
+   visibility: visible;
+   opacity: 1;
+   width: 25%;
+   z-index: 5;
+}
+
+.left .me {
+   height: 20vh;
+   width: 20vh;
+   border: 1px solid grey;
+   border-radius: 50%;
+   margin-top: 5vh;
+   margin-bottom: 3vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.left h3 {
+   color: rgb(187, 187, 187);
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+.left button {
+   height: 40px;
+   width: 70%;
+   border: none;
+   /* color: rgb(71, 56, 155); */
+   border-radius: 0.5vh;
+   outline: none;
+   margin: 1vh;
+   font-size: 13px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   cursor: pointer;
+   background: rgb(187, 187, 187);
+   transition: 0.3s all ease;
+}
+
+.left button:hover {
+   background: rgb(206, 206, 206);
+   letter-spacing: 3px;
+}

@@ -1,0 +1,84 @@
+@font-face {
+   font-family: poppins;
+   src: url(../font/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+   font-family: poppins-bold;
+   src: url(../font/Poppins/Poppins-Bold.ttf);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: poppins;
+}
+
+::-webkit-scrollbar { width: 0px; }
+
+body {
+   width: 100%;
+   text-align: center;
+   background: rgb(231, 231, 231);
+   height: 100vh;
+}
+
+.edit-profile {
+   width: 50%;
+   height: 50%;
+   margin: auto;
+   border-radius: 1vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.edit-profile .data {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+.edit-profile .data p {
+   width: 20%;
+   text-align: left;
+}
+
+h2 {
+   margin: 2vh;
+   letter-spacing: 1px;
+   color: rgb(94, 94, 94);
+}
+
+input {
+   height: 35px;
+   width: 60%;
+   letter-spacing: 1.5px;
+   font-weight: bold;
+   font-size: 14px;
+   padding-left: 2vh;
+   padding-right: 2vh;
+   margin: 0.5vh;
+   border-radius: 0.5vh;
+   outline: none;
+   border: none;
+   color: rgb(94, 94, 94);
+}
+
+button {
+   height: 35px;
+   width: 20%;
+   letter-spacing: 1.5px;
+   font-weight: bold;
+   font-size: 14px;
+   color: lightgrey;
+   /* background: rgb(71, 56, 155); */
+   border-radius: 0.5vh;
+   margin: 2vh;
+   outline: none;
+   border: none;
+   cursor: pointer;
+}

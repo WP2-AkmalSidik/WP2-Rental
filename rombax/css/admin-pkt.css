@@ -1,0 +1,17 @@
+
+/* TD Transaksi */
+.pkt-no {
+   width: 4%;
+}
+.pkt-nama {
+   width: 25%;
+}
+.pkt-durasi {
+   width: 13%;
+}
+.pkt-biaya {
+   width: 15%;
+}
+.pkt-tindakan {
+   width: 15%;
+}

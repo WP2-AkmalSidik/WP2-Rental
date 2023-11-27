@@ -1,0 +1,33 @@
+
+/* TD Pesanan */
+.psn-no {
+   width: 4%;
+}
+.psn-tgl {
+   width: 9%;
+}
+.psn-nik {
+   width: 17%;
+   cursor: pointer;
+}
+.psn-mobil {
+   width: 9%;
+}
+.psn-nopol {
+   width: 8%;
+}
+.psn-paket {
+   width: 14%;
+}
+.psn-driver {
+   width: 6.5%;
+}
+.psn-durasi {
+   width: 6.5%;
+}
+.psn-bukti {
+   width: 10%;
+}
+.psn-tindakan {
+   width: 17%;
+}

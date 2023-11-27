@@ -1,0 +1,17 @@
+Database = rombax
+
+ Table = component
+   -> inside component (column) = name & value
+      -> insert into component {
+         name = bg
+         value = ? (example: blue)
+      }
+
+
+Izzat alharis  {
+   -> facebook.com/izzat.alharis
+   -> izzatalharist@gmail.com
+   -> (+62) 819-0659-0037
+}  
+
+-> RBX - Family - Brebes - Jawa tengah - Indonesia.

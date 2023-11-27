@@ -1,0 +1,23 @@
+.about {
+   height: 100%;
+   width: 80%;
+   margin: auto;
+   padding-top: 5vh;
+   color: grey;
+   letter-spacing: 1.5px;
+}
+
+.about .rbx-logo {
+   margin: auto;
+   height: 30vh;
+   width: 30vh;
+   border-radius: 50%;
+   background-size: 73% 53%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-image: url(../img/RBXLOGO.png);
+}
+
+.about h2 {
+   margin-bottom: 2vh;
+}

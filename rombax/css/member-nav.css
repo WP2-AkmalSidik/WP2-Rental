@@ -1,0 +1,106 @@
+
+
+/* Home NAV */
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   height: 7vh;
+   padding-left: 5%;
+   padding-right: 5%;
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   z-index: 7;
+   -webkit-box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.40);
+   -moz-box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.40);
+   box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.40);
+}
+
+nav h3 {
+   font-family: poppins-bold;
+   width: 40%;
+   text-align: left;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 16.8px;
+   color: rgb(255, 255, 255);
+}
+
+nav h3 span {
+   color: rgb(184, 184, 184);
+   letter-spacing:3px;
+}
+
+.burger {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 6vh;
+   cursor: pointer;
+   height: 6vh;
+}
+
+.burger:hover > .bgr2 {
+   margin: 0.5vh;
+}
+
+.bgr1, .bgr2, .bgr3 {
+   height: 2px;
+   width: 73%;
+   background: rgb(255, 255, 255);
+   position: relative;
+   transition: 0.3s all ease;
+}
+
+.bgr1 {
+   transform: rotate(-180deg);
+}
+
+.bgr2 {
+   margin: 0.9vh;
+}
+
+.bgr3 {
+   transform: rotate(180deg);
+}
+
+.bgr1-active {
+   transform: rotate(50deg);
+   bottom: -1px;
+}
+
+.bgr2-active {
+   display: none;
+}
+
+.bgr3-active {
+   transform: rotate(-50deg);
+   top: -1px;
+}
+
+nav .top-menu {
+   display: flex;
+   align-items: center;
+   padding: 1vh;
+}
+
+nav .top-menu button {
+   color: rgb(184, 184, 184);
+   letter-spacing: 1.5px;
+   font-weight: bold;
+   margin: 2vh;
+   font-size: 12.5px;
+   background: none;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   transition: 0.3s all ease;
+}
+
+nav .top-menu button:hover {
+   color: rgb(231, 231, 231);
+}

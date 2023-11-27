@@ -1,0 +1,20 @@
+
+/* TD Transaksi */
+.drv-no {
+   width: 4%;
+}
+.drv-nama {
+   width: 25%;
+}
+.drv-alamat {
+   width: 13%;
+}
+.drv-tlp {
+   width: 15%;
+}
+.drv-status {
+   width: 15%;
+}
+.drv-tindakan {
+   width: 15%;
+}
